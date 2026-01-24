@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(245.71deg, #170A00 4.96%, #170600 33.7%, #0F0700 68.41%, #170A00 96.42%);
+
+}
+
+
+.logo { 
+    background: linear-gradient(261.69deg, #FF6432 12.12%, #FFA228 86.72%);
+    /* s4  */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-size: 34.06px;
+}
+
+.loginbtn {
+    background: linear-gradient(261.69deg, #FF5D29 12.12%, #FE9C1C 86.72%);
+}
+
+
+.activelink {
+    background: linear-gradient(261.69deg, #FF6432 12.12%, #FFA228 86.72%);
+    /* s4  */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-weight: bold;
+  position: relative;
+}
+
+/* pseudoclass ::before, ::after */
+
+.activelink::before {
+    content:'';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(261.69deg, #FF6432 12.12%, #FFA228 86.72%);
+
+    position: absolute;
+    bottom: -10px;
+    left: 40%;
+
+}
+
+
+
