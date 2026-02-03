@@ -1,3 +1,8 @@
+// universal selector 
+const watchVideoBtn = document.querySelector("#watch-video-btn")
+const closeModalBtn = document.querySelector(".modal-close")
+
+// Function expression, ox funksiya (arashdir: ox funksiya ile regular funksiya arasidnaki ferq (sintaksis))
 const linklereActiveClassiElaveEt = () => {
     const navLinks = document.querySelector(".navigation-links")
    if(!navLinks) return;
@@ -23,6 +28,14 @@ const linklereActiveClassiElaveEt = () => {
 
 document.addEventListener("DOMContentLoaded", linklereActiveClassiElaveEt) //undefined
 
+
+watchVideoBtn.addEventListener("click", function(){
+   document.querySelector(".watch-pizza-modal").classList.add("w-[100%]")
+})
+
+closeModalBtn.addEventListener("click", ()=> {
+    document.querySelector(".watch-pizza-modal").classList.remove("w-[100%]")
+} )
 
 
 

@@ -1,3 +1,4 @@
+
 body {
     background: linear-gradient(245.71deg, #170A00 4.96%, #170600 33.7%, #0F0700 68.41%, #170A00 96.42%);
 
@@ -45,5 +46,36 @@ body {
 
 }
 
+
+.to-order-pizza-menu {
+  border: 2px solid transparent;
+  border-radius: 50px;
+
+  background:
+    linear-gradient(#000, #000) padding-box,
+    linear-gradient(261.84deg, #FFA631 7.69%, #FF6939 81.11%) border-box;
+}
+
+
+
+.to-order {
+  background: linear-gradient(261.84deg, #FFA631 7.69%, #FF6939 81.11%);
+  border-radius:50px;
+  padding: 17px;
+
+}
+
+/* bu class js funksionalligi ile elave olunacaq - 7 Fevral elave et */
+.active-selection {
+  background: linear-gradient(261.69deg, #FF5924 12.12%, #FFA229 86.72%);
+  border: none;
+
+}
+
+.btn-order-now-gradient {
+  background: linear-gradient(261.69deg, #FF5924 12.12%, #FFA229 86.72%);
+  border: none;
+  border-radius: 25px;
+}
 
 
