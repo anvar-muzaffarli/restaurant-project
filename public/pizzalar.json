@@ -1,0 +1,34 @@
+[
+ {
+   "pizza_img": "./public/images/most/pizza1.png",
+   "pizzanin_adi": "Argentina",
+   "pizzanin_terkibi": "Filling: sogan, potato, tomato, mushrooms, cheese, olives, meat...",
+   "pizzanin_qiymeti": 7.35
+
+ },
+
+ {
+    "pizza_img": "./public/images/most/pizza2.png",
+    "pizzanin_adi": "Gribnaya",
+    "pizzanin_terkibi": "Filling: pendir, potato, tomato, mushrooms, cheese, olives, meat...",
+    "pizzanin_qiymeti": 6.35
+ 
+  },
+
+  {
+    "pizza_img": "./public/images/most/pizza3.png",
+    "pizzanin_adi": "Tomato",
+    "pizzanin_terkibi": "Filling: sarimsaq, potato, tomato, mushrooms, cheese, olives, meat...",
+    "pizzanin_qiymeti": 10.44
+ 
+  },
+
+  {
+    "pizza_img": "./public/images/most/pizza4.png",
+    "pizzanin_adi": "Italian x2",
+    "pizzanin_terkibi": "Filling: kartoflu, potato, tomato, mushrooms, cheese, olives, meat...",
+    "pizzanin_qiymeti": 20.44
+ 
+  }
+ 
+]

@@ -79,3 +79,60 @@ body {
 }
 
 
+
+
+/* background shekilleri ucun */
+
+.hwc-left {
+  background-image: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)), url("../images/events/howwecooking.jpg");
+  background-size: cover;
+  padding: 30px;
+}
+
+.hwc-center {
+  background-image:linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)), url("../images/events/ourblog.jpg");
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: center center;
+  padding: 30px;
+}
+
+.hwc-right {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  text-align: right;
+  padding: 30px;
+
+}
+
+
+.tpop-left{
+  background-image: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)), url("../images/events/two-pizza-one-price.jpg");
+  background-size: cover;
+  padding: 30px;
+
+}
+
+.tpop-right {
+  background-image: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)), url("../images/events/kitchen-tour.jpg");
+  background-size: cover;
+  background-position: center center;
+  padding: 30px;
+}
+
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)), url("../images/most/banner.jpg");
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+}
+
+.more-btn {
+  width: 204px;
+  height: 38px;
+  margin: 40px 0;
+  border-radius: 32px;
+}
