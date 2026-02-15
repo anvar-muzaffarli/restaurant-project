@@ -136,3 +136,21 @@ body {
   margin: 40px 0;
   border-radius: 32px;
 }
+
+.fa-instagram, .fa-x-twitter, .fa-facebook {
+  background: linear-gradient(261.69deg, #FF6432 12.12%, #FFA228 86.72%);
+  /* s4  */
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+color: transparent;
+font-size: 19px;
+}
+
+
+@media(min-width:768px) {
+  .fa-instagram, .fa-x-twitter, .fa-facebook {
+    
+  font-size: 31px;
+  }
+}

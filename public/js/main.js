@@ -6,6 +6,28 @@ const closeModalBtn = document.querySelector(".modal-close")
 // pizzalar ucun yerin secilmesi
 const pizzalarDiviMost = document.querySelector(".most-pizzalar")
 
+
+// Navbar menyu ucun deyishenlerin teyini
+const barsIcon = document.getElementById("bars")
+// s ve ya all varsa bu sene bir yox bir nece element qaytarir!!!
+// getElementsByClassName - bu sene htmlcollection qaytarir!!!
+const closeIcon = document.getElementsByClassName("fa-xmark")[0]
+
+const mobileMenyuDivi = document.getElementsByTagName("div")[0]
+
+
+
+
+barsIcon.addEventListener("click", function(){
+   mobileMenyuDivi.classList.add("w-[100%]")
+})
+
+
+closeIcon.addEventListener("click", ()=> {
+    mobileMenyuDivi.classList.remove("w-[100%]")
+})
+
+
 // Function expression, ox funksiya (arashdir: ox funksiya ile regular funksiya arasidnaki ferq (sintaksis))
 const linklereActiveClassiElaveEt = () => {
     const navLinks = document.querySelector(".navigation-links")

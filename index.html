@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
@@ -18,6 +18,16 @@
 
 <body>
 
+    <div class="mobile-menyu h-[200vh] fixed w-0 overflow-x-hidden bg-black z-[99999999] ">
+        <i class="fa-solid fa-xmark text-white absolute right-[40px] top-[40px] text-2xl"></i>
+        <div class="mobile-menyu-links text-white flex flex-col items-center justify-center h-[100vh]">
+            <a href="" class="text-2xl">Home</a>
+            <a href="" class="text-2xl">Menu</a>
+            <a href="" class="text-2xl">Events</a>
+            <a href="" class="text-2xl">About us</a>
+           
+        </div>
+    </div>
 
 
     <div
@@ -52,7 +62,7 @@
                 <button>
                     <img src="./public/images/header/basket.svg" alt="">
                 </button>
-                <button class="md:hidden">
+                <button class="md:hidden menu-icon" id="bars">
                     <img src="./public/images/header/bars.svg" alt="">
                 </button>
 
@@ -505,7 +515,7 @@
         <!-- Events section start -->
 
         <section class="events-section md:py-[100px]">
-            <div class="how-we-cooking grid grid-cols-3 gap-[20px]">
+            <div class="how-we-cooking grid grid-cols-1 md:grid-cols-3 gap-[20px]">
                 <div class="hwc-left h-[260px] rounded-[30px]">
                     <h3 class="md:text-[25.09px]">How we cooking</h3>
                     <button class="active-selection more-btn">More</button>
@@ -524,7 +534,7 @@
                 
             </div>
 
-            <div class="two-pizza-one-price grid  grid-cols-2 gap-[20px] my-[40px]">
+            <div class="two-pizza-one-price grid grid-cols-1  md:grid-cols-2 gap-[20px] my-[40px]">
                 <div class="tpop-left h-[260px] rounded-[30px]">
                     <h3 class="md:text-[25.09px]">Two pizza one price</h3>
                     <button class="active-selection more-btn">More</button>
@@ -543,11 +553,82 @@
 
         <!-- Events section end -->
 
+        <footer class="footer-section py-[40px] px-[20px]">
+            <div class="footer-top grid grid-cols-1 md:grid-cols-2">
+                <a href="" class="logo font-bold my-[40px]">
+                    pizzashop
+                </a>
+    
+                <nav class="footer-nav-links text-white grid grid-cols-2 md:grid-cols-4 ">
+                    <div class="links flex flex-col ">
+                        <h3>Home</h3>
+                        <a href="" class="text-[#515151]">To order</a>
+                        <a href="" class="text-[#515151]">To order</a>
+                        <a href="" class="text-[#515151]">To order</a>
+                        <a href="" class="text-[#515151]">To order</a>
+                       
+                    </div>
 
+                    <div class="links flex flex-col">
+                        <h3>Home</h3>
+                        <a href="" class="text-[#515151]">To order</a>
+                        <a href="" class="text-[#515151]">To order</a>
+                        <a href="" class="text-[#515151]">To order</a>
+                        <a href="" class="text-[#515151]">To order</a>
+                       
+                    </div>
+
+                    <div class="links flex flex-col">
+                        <h3>Home</h3>
+                        <a href="" class="text-[#515151]">To order</a>
+                        <a href="" class="text-[#515151]">To order</a>
+                        <a href="" class="text-[#515151]">To order</a>
+                        <a href="" class="text-[#515151]">To order</a>
+                       
+                    </div>
+
+
+                    <div class="links flex flex-col">
+                        <h3>Home</h3>
+                        <a href="" class="text-[#515151]">To order</a>
+                        <a href="" class="text-[#515151]">To order</a>
+                        <a href="" class="text-[#515151]">To order</a>
+                        <a href="" class="text-[#515151]">To order</a>
+                       
+                    </div>
+    
+                
+                </nav>
+    
+            </div>
+    
+            <div class="footer-bottom flex justify-between py-[50px]">
+                <a href="tel:+79373335533">+7 (937) 333-55-33</a>
+
+                <div class="social-links md:me-[100px] flex justify-end">
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-x-twitter"></i> 
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                    
+                </div>
+            </div>
+    
+        </footer>
 
 
     </div>
 
+
+    
 
 
 
